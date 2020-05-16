@@ -32,3 +32,8 @@ flow-typed
 coverage
 decls
 examples
+
+.babelrc
+.editorconfig
+.eslintrc.js
+.prettierrc
