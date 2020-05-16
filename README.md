@@ -7,7 +7,9 @@ Civic Liker is a movement to realign creativity and reward, by the technology of
 [What's LikeCoin?](https://like.co/)
 
 ## Install
-```
+```bash
+npm i react-likecoin
+## or
 yarn react-likecoin
 ```
 
