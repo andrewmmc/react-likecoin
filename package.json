@@ -1,0 +1,49 @@
+{
+  "name": "react-likecoin",
+  "description": "Unofficial plugin for LikeCoin on React and Gatsby. Civic Liker is a movement to realign creativity and reward, by the technology of nano-payment to decouple media’s income from advertising needs. Any website can enable the LikeCoin button by installing the plugin. Each “Like” from the readers let creators to be rewarded.",
+  "version": "1.0.0",
+  "author": "Andrew Mok <hello@andrewmmc.com>",
+  "license": "MIT",
+  "keywords": [
+    "react-likecoin",
+    "react-plugin",
+    "react",
+    "plugin",
+    "likecoin"
+  ],
+  "dependencies": {
+    "iframe-resizer-react": "^1.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "prettier": "^1.19.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "peerDependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "homepage": "https://andrewmmc.com",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewmmc/react-likecoin"
+  },
+  "scripts": {
+    "lint": "eslint --fix --ext .js",
+    "prettier": "prettier --write 'src/**/*.js'",
+    "build": "babel src --out-dir . --ignore \"**/__tests__\"",
+    "watch": "babel -w src --out-dir . --ignore \"**/__tests__\"",
+    "prepare": "NODE_ENV=production yarn build"
+  }
+}
